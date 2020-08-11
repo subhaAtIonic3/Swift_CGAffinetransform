@@ -13,6 +13,7 @@
 		2273963924E238FF005424A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2273963724E238FF005424A1 /* Main.storyboard */; };
 		2273963B24E23901005424A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2273963A24E23901005424A1 /* Assets.xcassets */; };
 		2273963E24E23901005424A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2273963C24E23901005424A1 /* LaunchScreen.storyboard */; };
+		2273964724E23C1D005424A1 /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2273964624E23C1C005424A1 /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2273963A24E23901005424A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2273963D24E23901005424A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2273963F24E23901005424A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2273964624E23C1C005424A1 /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				2273963A24E23901005424A1 /* Assets.xcassets */,
 				2273963C24E23901005424A1 /* LaunchScreen.storyboard */,
 				2273963F24E23901005424A1 /* Info.plist */,
+				2273964524E23C1C005424A1 /* Content */,
 			);
 			path = Project_15;
+			sourceTree = "<group>";
+		};
+		2273964524E23C1C005424A1 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2273964624E23C1C005424A1 /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2273963E24E23901005424A1 /* LaunchScreen.storyboard in Resources */,
+				2273964724E23C1D005424A1 /* penguin@2x.png in Resources */,
 				2273963B24E23901005424A1 /* Assets.xcassets in Resources */,
 				2273963924E238FF005424A1 /* Main.storyboard in Resources */,
 			);
@@ -293,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.subha.Project-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.subha.Project-15";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
